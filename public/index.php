@@ -1,3 +1,13 @@
+<?php 
+session_start();
+
+if (!isset($_SESSION['password_check']) || $_SESSION['password_check'] != true) {
+  // If not logged in, redirect to the login page
+  header('Location: /');
+  exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
