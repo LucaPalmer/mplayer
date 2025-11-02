@@ -27,7 +27,7 @@ const customButtons = [
       const mix = params.get('mix');
     switch (mix) {
       case 'mix1':
-        setUrl("https://www.mixcloud.com/trillionchances/demo/");
+        setUrl("https://www.mixcloud.com/demo/");
         break;
       case 'mix2':
         setUrl("https://www.mixcloud.com/cesarescorcia9/club-edition-podcast-episode-237-mixed-by-cesar-escorcia/");
